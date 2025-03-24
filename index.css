@@ -1,0 +1,59 @@
+body {
+    height: 100vh; /* Faz o corpo ocupar toda a altura da tela */
+    margin: 0; /* Remove margens padrão */
+    background-color: black;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+.container {
+  display: flex;
+  align-items: auto;
+  background: linear-gradient(to right, #2b2727, #2ce407);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.imagem-redonda {
+  width: 50px; /* Ajuste o tamanho conforme necessário */
+  height: 50px; /* Ajuste o tamanho conforme necessário */
+  border-radius: 50%;
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
+}
+
+/* Nome da empresa */
+.titulo {
+  font-size: 25px; /* Tamanho medio */
+  font-weight: bold;
+  color: #f3f3f3;
+}
+
+
+
+
+
+.atalhos {
+    text-shadow:#ffffff;
+    word-spacing: 47px;
+    color: #e3f1e3;
+    text-align: center;
+     padding: 28px;
+
+}
+
+
+
+
+
+
+     /* visited link */
+a:visited {
+    color: rgb(12, 236, 12);
+  }
+  /* mouse over link */
+  a:hover {
+    color: rgb(247, 250, 249);
+  }
